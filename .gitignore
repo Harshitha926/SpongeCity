@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated data and outputs — regenerate via the pipeline, don't commit large files
+data/*.csv
+outputs/*.csv
+outputs/*.pkl
+outputs/*.html
+outputs/*.png
+
+# Keep folder structure with .gitkeep placeholders
+!data/.gitkeep
+!outputs/.gitkeep

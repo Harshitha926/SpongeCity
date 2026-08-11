@@ -1,0 +1,4 @@
+pandas>=2.0.0
+scikit-learn>=1.3.0
+folium>=0.15.0
+joblib>=1.3.0
